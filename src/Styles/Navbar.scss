@@ -1,0 +1,48 @@
+// @import - import of styles
+@import 'generic.scss';
+
+
+// $ - variable
+$pinkColor: rgb(229, 44, 217);
+$greenColor: green;
+//% shablon
+%border{
+  border-bottom: 2px dashed green;
+}
+//mixin
+@mixin fontz($f, $c){
+  font-family: $f;
+  color: $c;
+}
+
+.navbar{
+  width: 100%;
+  height: 80%;
+  background-color: $pinkColor;
+  .block__text{
+    font-size: 24px;
+    span{
+      color: $greenColor;
+    }
+  }
+  >p {
+    color: red
+  }
+}
+//& - repeats writing of name of parent; connects style to parant: &:hover == .nav:hover
+
+.nav{
+  color: yellowgreen;
+  text-decoration: underline;
+  
+  &:hover{
+    color: black
+  }
+  .block &{
+  font-size: 80px;
+  }
+  @extend %border
+}
+.mixin{
+  @include fontz(italic, rgb(24,234,23))
+}

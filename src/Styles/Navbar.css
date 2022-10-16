@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  padding-top: 10px;
+  margin: 0;
+  border: 0;
+}
+
+.nav {
+  border-bottom: 2px dashed green;
+}
+
+.navbar {
+  width: 100%;
+  height: 80%;
+  background-color: rgb(229, 44, 217);
+}
+.navbar .block__text {
+  font-size: 24px;
+}
+.navbar .block__text span {
+  color: green;
+}
+.navbar > p {
+  color: red;
+}
+
+.nav {
+  color: yellowgreen;
+  text-decoration: underline;
+}
+.nav:hover {
+  color: black;
+}
+.block .nav {
+  font-size: 80px;
+}
+
+.mixin {
+  font-family: italic;
+  color: rgb(24, 234, 23);
+}/*# sourceMappingURL=Navbar.css.map */
