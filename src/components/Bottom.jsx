@@ -2,7 +2,7 @@ import React from 'react';
 import '../Styles/Navbar.css';
 // import '../Styles/generic.css';
 
-export default function Header() {
+export default function Bottom() {
   return (
     <div className="navbar">
       <a href="/home" className="nav">
@@ -22,7 +22,6 @@ export default function Header() {
       </div>
       <p className="mixin">mixin is here</p>
       <h2>for git</h2>
-      <h3>git 3 </h3>
     </div>
   );
 }
