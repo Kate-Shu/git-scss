@@ -24,6 +24,8 @@ export default function Bottom() {
       <h2>for git</h2>
       <h2>for git2</h2>
       <h2>for git3</h2>
+      <h2>for git4</h2>
+      <h2>for git5</h2>
     </div>
   );
 }
