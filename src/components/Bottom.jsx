@@ -22,6 +22,8 @@ export default function Bottom() {
       </div>
       <p className="mixin">mixin is here</p>
       <h2>for git</h2>
+      <h2>for git2</h2>
+      <h2>for git3</h2>
     </div>
   );
 }
