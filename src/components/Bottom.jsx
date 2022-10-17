@@ -10,11 +10,11 @@ export default function Bottom() {
       </a>
 
       <p>Paragraph 1</p>
-
       <div className="block">
         <div className="block__text block__big">
           Here is <span>span</span>
           <p>Paragraph 2</p>
+          <p>Paragraph for br-1</p>
         </div>
         <a href="/home" className="nav">
           Contact
