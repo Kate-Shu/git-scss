@@ -23,6 +23,7 @@ export default function Header() {
       <p className="mixin">mixin is here</p>
       <h2>for git</h2>
       <h3>git 3 </h3>
+      <h3>git 4 </h3>
     </div>
   );
 }
